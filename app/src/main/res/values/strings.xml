@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Organizer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="usd_rub">USD/RUB</string>
+    <string name="city">City</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding = "utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.platchenkov.organizer.InfoFragment">
+
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="0" />
+    <TextView
+        android:id="@+id/celsius"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="°C"
+        android:layout_alignLeft="@+id/temperature"
+        android:paddingLeft="18dp" />
+
+    <TextView
+        android:id="@+id/usd_rub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/usd_rub"
+        android:layout_alignLeft="@+id/celsius"
+        android:paddingLeft="200dp" />
+
+    <TextView
+        android:id="@+id/course"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/usd_rub"
+        android:text="0"
+        android:paddingLeft="300dp" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="20dp"
+        android:text="@string/city" />
+
+
+
+</RelativeLayout>
